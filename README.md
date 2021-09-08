@@ -2,8 +2,8 @@
 
 - [x] useInput
       `For forms`
-- [] useTabs
-  `Tabs usage for menus`
+- [x] useTabs
+      `Tabs usage for menus`
 - [] useTitle
   `Change title with document of React with Hooks`
 - [] usePageLeave
