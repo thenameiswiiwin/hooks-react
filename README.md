@@ -1,7 +1,9 @@
 # React Hooks packages
 
-- [] useInput
-  `For forms`
+- [x] useInput
+      `For forms`
+- [] useTabs
+  `Tabs usage for menus`
 - [] useTitle
   `Change title with document of React with Hooks`
 - [] usePageLeave
@@ -20,8 +22,6 @@
   `Sent notification to the user, with notification `API
 - [] useScroll
   `Detect scroll and notify user of the scroll`
-- [] useTabs
-  `Tabs usage for menus`
 - [] usePreventLeave
   `Confirm when user want to leave the page`
 - [] useConfirm
