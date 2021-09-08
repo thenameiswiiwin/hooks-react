@@ -1,29 +1,29 @@
 # React Hooks packages
 
 - [] useInput
-  For forms
+  `For forms`
 - [] useTitle
-  Change title with document of React with Hooks
+  `Change title with document of React with Hooks`
 - [] usePageLeave
-  Detect when user is about to leave the page
+  `Detect when user is about to leave the page`
 - [] useClick
-  Detect when user click on an element
+  `Detect when user click on an element`
 - [] useFadeIn
-  Fade in animation into an element
+  `Fade in animation into an element`
 - [] useFullScreen
-  Made element fullscreen and go back o normal
+  `Made element fullscreen and go back o normal`
 - [] useHover
-  Detect when mouse is on top of something
+  `Detect when mouse is on top of something`
 - [] useNetwork
-  Detect when user is online or offline
+  `Detect when user is online or offline`
 - [] useNotification
-  Sent notification to the user, with notification API
+  `Sent notification to the user, with notification `API
 - [] useScroll
-  Detect scroll and notify user of the scroll
+  `Detect scroll and notify user of the scroll`
 - [] useTabs
-  Tabs usage for menus
+  `Tabs usage for menus`
 - [] usePreventLeave
-  Confirm when user want to leave the page
+  `Confirm when user want to leave the page`
 - [] useConfirm
 - [] useAxios
-  Wrapper for the library Axios
+  `Wrapper for the library Axios`
