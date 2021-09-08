@@ -25,5 +25,6 @@
 - [] usePreventLeave
   `Confirm when user want to leave the page`
 - [] useConfirm
+  `Give user a confirmation`
 - [] useAxios
   `Wrapper for the library Axios`
