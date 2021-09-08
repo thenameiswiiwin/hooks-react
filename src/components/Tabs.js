@@ -13,30 +13,23 @@ export default function Tabs() {
 
 	return (
 		<div className="flex flex-col justify-center items-center h-screen">
-			<ul className="list-u">
-				<Tab
-					tabs={tabs}
-					isActive={isActive}
-					setIsActive={setIsActive}
-					activeStyle="activeTab-1"
-					inActiveStyle="inactiveTab-1"
-				/>
-			</ul>
+			<Tab
+				tabs={tabs}
+				isActive={isActive}
+				setIsActive={setIsActive}
+				activeStyle="activeTab-1"
+				inActiveStyle="inactiveTab-1"
+			/>
 			<div className="w-80 bg-white p-16 text-center mx-auto border">
 				{isActive.content}
 			</div>
-			<ul className="list-u">
-				<Tab
-					tabs={tabs}
-					isActive={isActive}
-					setIsActive={setIsActive}
-					activeStyle="activeTab-2"
-					inActiveStyle="inactiveTab-2"
-				/>
-			</ul>
+			<Tab
+				tabs={tabs}
+				isActive={isActive}
+				setIsActive={setIsActive}
+				activeStyle="activeTab-2"
+				inActiveStyle="inactiveTab-2"
+			/>
 		</div>
 	);
 }
-
-// ? 'cursor-pointer py-3 px-4 rounded transition bg-green-500 text-white'
-// : 'cursor-pointer py-3 px-4 rounded transition'
