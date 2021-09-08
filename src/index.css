@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+	.inactiveTab-1 {
+		@apply cursor-pointer py-2 px-4 border-b-8 text-gray-500;
+	}
+	.activeTab-1 {
+		@apply inactiveTab-1 text-green-500 border-green-500;
+	}
+	.inactiveTab-2 {
+		@apply cursor-pointer py-3 px-4 rounded transition;
+	}
+	.activeTab-2 {
+		@apply inactiveTab-2 bg-green-500 text-white;
+	}
+	.list-u {
+		@apply flex justify-center items-center my-4;
+	}
+	.inputs {
+		@apply block text-sm py-3 px-4 rounded-lg w-full border outline-none;
+	}
+}
